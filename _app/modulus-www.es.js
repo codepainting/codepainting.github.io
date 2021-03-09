@@ -1,1 +1,1 @@
-export{w as start}from"./start.js";
+export{x as start}from"./start.js";
