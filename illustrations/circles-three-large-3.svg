@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="478" viewBox="0 0 416 478">
+	<defs>
+		<style>.a{fill:rgba(255,255,255,0);stroke:#707070;opacity:0.53;}.b{stroke:none;}.c{fill:none;}</style>
+	</defs>
+	<g transform="translate(-848 -187)">
+		<g class="a" transform="translate(848 218)">
+			<circle vector-effect="non-scaling-stroke" class="b" cx="208" cy="208" r="208" />
+			<circle vector-effect="non-scaling-stroke" class="c" cx="208" cy="208" r="207.5" />
+		</g>
+		<g class="a" transform="translate(848 249)">
+			<circle vector-effect="non-scaling-stroke" class="b" cx="208" cy="208" r="208" />
+			<circle vector-effect="non-scaling-stroke" class="c" cx="208" cy="208" r="207.5" />
+		</g>
+		<g class="a" transform="translate(848 187)">
+			<circle vector-effect="non-scaling-stroke" class="b" cx="208" cy="208" r="208" />
+			<circle vector-effect="non-scaling-stroke" class="c" cx="208" cy="208" r="207.5" />
+		</g>
+	</g>
+</svg>

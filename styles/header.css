@@ -1,0 +1,82 @@
+/*HEADER & FOOTER styles are temporarily in the /styles/header.css and /styles/footer.css because of an error - $layout.svelte doesn't read css from components.
+	We will move them back to components as soon as the problem is fixed */
+
+header.mod-header{
+    z-index: 9;
+    position: sticky;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    left: 0;
+	padding:0 16px 0 16px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+
+
+.mod-header img {
+    height: 14px;
+    width: 155px;
+}
+
+
+
+.mod-header nav {
+    height: 120px;
+    align-content: center;
+}
+
+
+
+.mod-header nav div {
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+}
+
+.mod-header nav div:nth-of-type(1) {
+    grid-column: 1/5;
+}
+
+.mod-header nav div:nth-of-type(2) {
+    grid-column: 5/9;
+}
+
+.mod-header nav div:nth-of-type(3) {
+    grid-column: 9/11;
+    justify-content: flex-end;
+}
+
+
+
+.mod-header nav a {
+    display: flex;
+    height: 100%;
+    padding: 64px 32px 0 0;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1a1a1a;
+    letter-spacing: -0.03em;
+}
+
+.mod-header nav div:nth-of-type(3) a {
+    justify-content: right;
+}
+
+.mod-header nav div:nth-of-type(3) a:last-of-type{
+padding-right: 8px;}
+
+
+.mod-header nav a em {
+    font-style: normal;
+    border-bottom: 0px solid transparent;
+    transition: 300ms ease-in-out border;
+}
+
+.mod-header nav a:hover em {
+    border-bottom: 16px solid #77FFB2;
+    transition: 100ms ease-in-out border;
+}
